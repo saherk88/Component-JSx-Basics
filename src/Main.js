@@ -4,7 +4,7 @@ import ProfilePhoto from './profile/ProfilPhoto';
 import FullName from './profile/FullName';
 import Adress from './profile/Address';
 
-const Car = () => {
+const Profile = () => {
     return (
       <div className="App">
         <ProfilePhoto/>
@@ -14,5 +14,5 @@ const Car = () => {
     );
    };
 
-export default Car;
-ReactDOM.render(Car, document.getElementById('root'));
+export default Profile;
+ReactDOM.render(Profile, document.getElementById('root'));
