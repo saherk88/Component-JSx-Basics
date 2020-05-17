@@ -15,4 +15,3 @@ const Profile = () => {
    };
 
 export default Profile;
-ReactDOM.render(Profile, document.getElementById('root'));
